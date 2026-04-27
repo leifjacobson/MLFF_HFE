@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlff-hfe"
+version = "0.1.0"
+description = "Hydration free energy calculations using machine-learned force fields with OpenMM"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    { name = "Xiaowei Xie" },
+]
+dependencies = [
+    "ase",
+    "numpy",
+    "openmm",
+    "openmmtools",
+    "openmmtorch",
+    "torch",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+
+[project.scripts]
+run-openmm-hfe = "run_openmm_hfe:main"
+
+[tool.setuptools]
+py-modules = ["run_openmm_hfe"]
