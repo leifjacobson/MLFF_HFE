@@ -3,7 +3,7 @@
 
 # MLFF_HFE
 
-**MLFF_HFE** is a toolkit for computing hydration free energies (HFE) of organic molecules using machine-learned force fields (MLFF) with OpenMM, developed at Schrodinger Inc.
+**MLFF_HFE** is a toolkit for computing hydration free energies (HFE) of organic molecules using machine-learned force fields (MLFF) with OpenMM, developed at [Schrodinger Inc](https://www.schrodinger.com/).
 
 
 ## Overview
